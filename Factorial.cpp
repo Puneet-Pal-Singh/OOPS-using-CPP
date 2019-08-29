@@ -23,10 +23,6 @@ class factorial
     cout<<"\n Factorial of "<<num<<" = "<<fact;
   }
 };
-void owner()
-{
-  cout<<"\n \n Made By:- Charandeep singh \n \t   IT-3 \n \t   01176803117";
-}
 
 void main()
 {
@@ -35,6 +31,5 @@ void main()
   f.input();
   f.calc_fact();
   f.output();
-  owner();
   getch();
 }
