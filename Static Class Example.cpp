@@ -35,10 +35,8 @@ class auditorium
       cout<<"\n ---------------------------------------------------";
     }
 };
-    void owner()
-    {
-      
-
+    
+     
 int auditorium::count=0;
 void main()
 {
@@ -53,6 +51,5 @@ void main()
     a[i].output();
   }
   a1.total();
-  owner();
   getch();
 }
